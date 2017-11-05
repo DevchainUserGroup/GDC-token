@@ -1,5 +1,5 @@
-var TokenEstatePlatformToken = artifacts.require("./TokenEstatePlatformToken.sol");
+var GenevaDevChainToken = artifacts.require("./GenevaDevChainToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(TokenEstatePlatformToken);
+  deployer.deploy(GenevaDevChainToken);
 };
